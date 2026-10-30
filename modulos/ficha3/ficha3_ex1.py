@@ -28,3 +28,12 @@ for letra in nome:
 print(letrasM)
 
 listamult = [mult*2 if mult % 3 == 0 else mult for mult in lista]
+print(listamult)
+
+nomes = ["Ana", "Bruno", "alice", "Andreia", "Carlos"]
+nomesA = [nome.upper() for nome in nomes if nome.upper().startswith("A")]
+print(nomesA)
+
+frutas = ["banana", "uva", "laranja", "pera", "abacaxi"]
+comprimentos = [len(fruta) if len(fruta) > 5 else 0 for fruta in frutas]
+print(comprimentos)

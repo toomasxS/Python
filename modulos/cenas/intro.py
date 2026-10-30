@@ -1,6 +1,6 @@
 from random import randint
 import os
-from modulos.biblioteca import z
+from modulos.cenas.biblioteca import z
 
 x = 5
 print(f"O valor de x é {x}")
